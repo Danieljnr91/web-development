@@ -118,5 +118,10 @@ body{
     width: 23px;
 }
 
+@media (max-width: 480px) {
+    .header1 {
+        font-size: 24px;
+    }
+}
 
 
