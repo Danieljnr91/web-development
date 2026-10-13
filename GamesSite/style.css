@@ -1,0 +1,103 @@
+            body {
+                background-image: 
+                linear-gradient(rgba(64, 58, 58, 0.8), rgba(51, 46, 46, 0.8)), 
+                url('apexlegends.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+            .nav-bar{
+                background-color: rgba(240, 226, 226, 0.652);
+                padding-top: 18px;
+                padding-bottom: 18px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                border-radius: 7px;
+                transition: background-color 0.15s, text-decoration 0.15s;
+                margin-top: 50px;
+                width: 700px;
+                margin-left: 350px;
+                transition: transform 0.2s;
+            }
+            .nav-bar:hover{
+                transition-duration: 0.6;
+                background-color: rgba(255, 255, 255, 0.663);
+                transform: translateY(-5px);
+            }
+
+            .arcade{
+                color: rgba(0, 0, 0, 0.581);
+                padding-left: 170px;
+                padding-right: 15px;
+            }
+            .arcade:hover{
+                transition-duration: 0.2s;
+                cursor: pointer;
+                text-decoration: underline;
+                color: black;
+            }
+
+            .shooter {
+                color: rgba(0, 0, 0, 0.581);
+                padding-right: 15px;
+            }
+            .shooter:hover{
+                transition-duration: 0.2s;
+                cursor: pointer;
+                text-decoration: underline;
+                color: black;
+            }
+
+            .role {
+                color: rgba(0, 0, 0, 0.581);
+                padding-right: 15px;
+            }
+            .role:hover{
+                transition-duration: 0.2s;
+                cursor: pointer;
+                text-decoration: underline;
+                color: black;
+            }
+
+            .about:hover{
+               text-decoration: underline;
+               cursor: pointer;
+            }
+            .gamecards {
+                display: flex;
+                justify-content: center;
+                gap: 23px;
+                font-weight: bold;
+            }
+            .tablets{
+                width: 225px;
+                margin-top: 70px;
+                background-color: rgba(240, 226, 226, 0.652);
+                padding-top: 20px;
+                padding-left: 20px;
+                cursor: pointer;
+                transition: width 0.2s, box-shadow 0.2s, transform 0.2s, opacity 0.2s;
+                border-radius: 6px;
+            }
+            .tablets:hover{
+                transition-duration: 0.3s;
+                background-color: rgba(255, 255, 255, 0.663);
+                box-shadow: 3px 3px 4px rgba(30, 30, 30, 0.752);
+                transform: translateY(-5px);
+            }
+            .tablets:active{
+                opacity: 0.8;
+            }
+            .text{
+                text-align: center;
+                color: black;
+                font-weight: bold;
+                padding-right: 13px;
+                padding-bottom: 13px;
+            }
+            .tablet-image{
+                width: 200px;
+                height: 200px;
+                border-radius: 3px;
+            }

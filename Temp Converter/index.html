@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="header1">Daniel's Temperature Converter</h1>
+    <div class="outer">
+        <div class="card">
+            <h2 class="header2">Let's Convert..</h2>
+
+            <div class="radio-group">
+                <input type="radio" id="toKelvin" name="choice">  
+                <label id="kelvin" for="toKelvin">°C to K</label>
+            </div>
+            
+            <div class="radio-group">
+                <input type="radio" id="tofaren" name="choice">
+                <label id="faren" for="tofaren">°C to °F</label>
+            </div>
+
+            <div class="radio-group">
+                <input type="radio" id="farentokelvin" name="choice">
+                <label id="fartokev" for="farentokelvin">°F to K</label>
+            </div>
+
+            <label class="label" for="input-box">Temp Value</label>
+            <input id="input-box" placeholder="value goes here">
+            
+            <button id="button">Convert</button>
+            <h3 id="header3"></h3>
+
+            <div class="btn">
+                <button id="reset">Reset</button>
+                <button id="reverse"> <img src="reverse.png" class="image"> </button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

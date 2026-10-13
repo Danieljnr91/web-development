@@ -1,0 +1,124 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.532), rgba(51, 46, 46, 0.597)), url('background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-page{
+    background-color: rgba(16, 81, 16, 0.467);
+    width: 450px;
+    height: 530px;
+    display: flex;
+    border-radius: 13px;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    transition: transform 0.15s;
+}
+.login-page:hover{
+    transition-duration: 0.4s;
+    transform: translateY(-2px);
+}
+
+#heading{
+    color: white;
+    text-align: center;
+    transform: translateY(-60px);
+}
+
+.email{
+    font-weight: bold;
+    font-size: 18px;
+    transform: translateY(-70px);
+    padding-left: 63px;
+    margin-top: 55px;
+}
+
+#email-box{
+   border-color: rgba(240, 233, 233, 0.792);
+   border-radius: 17px;
+   height: 35px;
+   width: 320px;
+   padding-left: 15px;
+   margin-bottom: 20px;
+   transform: translate(65px,-50px);
+   background-color: rgba(50, 103, 50, 0.748);
+   padding-left: 10px;
+   color: #fff9f9;
+}
+
+.email-box::placeholder{
+    color: rgba(198, 192, 192, 0.77);
+}
+
+#password{
+    font-weight: bold;
+    font-size: 18px;
+    transform: translateY(-37px);
+    padding-left: 63px;
+}
+
+#password-box{
+   border-color: rgba(240, 233, 233, 0.792);
+   border-radius: 17px;
+   height: 35px;
+   width: 320px;
+   padding-left: 15px;
+   transform: translate(65px,-22px);
+   background-color: rgba(50, 103, 50, 0.748);
+   padding-left: 10px;
+   color: #fff9f9;
+}
+
+.password-box::placeholder{
+    color: rgba(198, 192, 192, 0.77);
+}
+
+#sign-in{
+    background-color: rgba(14, 121, 14, 0.789);
+    width: 120px;
+    height: 47px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transform: translate(155px,12px);
+    cursor: pointer;
+    font-size: 15px;
+    transition: height 0.2s, width 0.2s,background-color 0.1s;
+}
+#sign-in:hover{
+    transition-duration: 0.4s;
+    width: 125px;
+    height: 52px;
+    background-color: rgb(3, 117, 3);
+}
+#sign-in:active{
+    width: 125px;
+    height: 50px;
+    opacity: 0.9;
+}
+
+.forgot-password{
+    transform: translateY(-25px);
+    padding-left: 63px;
+    font-size: 14px;
+    
+}
+.reset{
+    text-decoration: underline;
+    color: rgb(226, 214, 214);
+    cursor: pointer;
+}
+
+.input:focus{
+    outline:none;
+    border:2px solid lime;
+}
+
+

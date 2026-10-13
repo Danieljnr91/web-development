@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(191, 191, 191);
+}
+
+.header1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transform: translateY(-60px);
+}
+
+.card{
+    background-color: rgb(124, 74, 127);
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:3px 3px 3px rgb(90, 90, 90);
+    color: white;
+}
+
+#input-box{
+    border: 1px solid rgb(74, 0, 123);
+    border-radius: 8px;
+    width: 100%;
+    height: 40px;
+    padding: 7px;
+    background-color: rgba(237, 222, 238, 0.7);
+}
+#input-box:focus{
+    outline: none;
+    border: 2px solid rgb(214, 128, 157);
+}
+
+#button{
+    height: 30px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: rgb(101, 2, 101);
+    color: white;
+    border: none;
+    transition: background-color 0.2s,transform 0.1s;
+}
+#button:hover{
+    background-color: rgb(112, 2, 112);
+    cursor: pointer;
+}
+#button:active{
+    transform: scale(0.99);
+}
+
+#header3{
+    padding: 16px;
+    color:rgb(63, 1, 107);
+    background-color: rgb(174, 143, 176);
+    border-radius: 12px;
+    overflow-wrap: anywhere;
+}
+
+#reset{
+    width: 27%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(101, 2, 101);
+    color: white;
+    border: none;
+    transition: background-color 0.2s,transform 0.1s;
+}
+#reset:hover{
+    background-color: rgb(112, 2, 112);
+    cursor: pointer;
+}
+#reset:active{
+    transform: scale(0.99);
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#reverse{
+    width: 13%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(101, 2, 101);
+    color: white;
+    border: none;
+    transition: background-color 0.2s,transform 0.1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reverse:hover{
+    background-color: rgb(112, 2, 112);
+    cursor: pointer;
+}
+#reverse:active{
+    transform: scale(0.99);
+}
+
+.image{
+    height: 23px;
+    width: 23px;
+}
+
+
+

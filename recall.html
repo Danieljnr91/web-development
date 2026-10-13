@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Trying to Recall
+        </title>
+        <style>
+                body{
+                    background-color: rgba(182, 175, 175, 0.619);
+                    display: flex;
+                    justify-content: center; 
+                    align-items: center;     
+                    height: 100vh;
+                }
+                button{
+                    margin: 30px;
+                    cursor: pointer;
+                    transition: width 0.15s, height 0.15s, background-colour 0.15s, color 0.15s, font-size 0.15s, font-weight 0.15s;
+                }
+                .add-to-cart-button{
+                    border: none;
+                    color: rgb(223, 198, 198);
+                    border-radius: 6px;
+                    background-color: red;
+                    width: 150px;
+                    height: 50px;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+                .add-to-cart-button:hover {
+                    width: 175px;
+                    height: 60px;
+                    background-color: rgb(238, 22, 22);
+                    transition-duration: 0.4s;
+                    box-shadow: 5px 5px 10px rgba(19, 13, 13, 0.736);
+                    font-size: 16px;
+                    color: white;
+                }
+                .add-to-cart-button:active {
+                    width: 170px;
+                    height: 55px;
+                    opacity: 0.8;
+                }
+
+                .purchase-button {
+                    background-color: blue;
+                    color: rgb(223, 198, 198);;
+                    border: none;
+                    width: 120px;
+                    height: 40px;
+                    border-radius: 8px;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+                .purchase-button:hover {
+                    transition-duration: 0.4s;
+                    width: 130px;
+                    height: 50px;
+                    background-color: rgb(16, 16, 237);
+                    box-shadow: 5px 5px 10px rgba(19, 13, 13, 0.736);
+                }
+                
+        </style>
+    </head>
+    <body>
+        <button class="add-to-cart-button">Add to Cart</button>
+        <button class="purchase-button">Purchase</button>
+        <button class="peturn-button">Request a Return</button>
+    </body>
+</html>
