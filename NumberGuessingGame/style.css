@@ -102,3 +102,21 @@ body{
     outline: none;
     border: 2px solid royalblue;
 }
+
+@media (max-width:400px){
+    .header1{
+        font-size: 24px;
+    }
+    .header2{
+        font-size: 22px;
+    }
+    .card{
+        width: 95%;
+    }
+    .box-label{
+        font-size: 17px;
+    }
+    #output{
+        font-size: 14px;
+    }
+}

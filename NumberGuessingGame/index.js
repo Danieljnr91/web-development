@@ -51,7 +51,7 @@ document.getElementById("button").onclick=function(){
 }
 
 document.getElementById("restart").onclick = function(){
-    document.getElementById("output").textContent=`Game restarted, new number generated`;
+    document.getElementById("output").textContent="";
     document.getElementById("input-box").value="";
     limit=7;
     gameOverlost=false;
