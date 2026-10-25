@@ -1,4 +1,4 @@
-let limit=5;
+let limit=6;
 let userInput;
 let gameOverlost=false;
 let gameOverWon=false
@@ -53,7 +53,7 @@ document.getElementById("button").onclick=function(){
 document.getElementById("restart").onclick = function(){
     document.getElementById("output").textContent="";
     document.getElementById("input-box").value="";
-    limit=7;
+    limit=6;
     gameOverlost=false;
     gameOverWon=false
     randomNumber = Math.floor(Math.random() * 100) + 1;
